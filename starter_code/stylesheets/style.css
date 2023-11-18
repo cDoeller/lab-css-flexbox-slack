@@ -8,3 +8,199 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+/* starter code */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* mobile code */
+
+html {
+
+}
+
+body {
+    background-color: #540B51;
+}
+
+/* nav bar */
+
+nav {
+    padding: 10px 0;
+    background-color: #540B51;
+}
+
+.nav-container {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.desktop-navigation {
+    display: none;
+}
+
+#slack-logo {
+height: 30px;
+padding-left: 20px;
+}
+
+.search-burger-buttons {
+    background-color: #540B51;
+    border: none;
+    padding-right: 20px;
+}
+
+/* header */
+
+#teamwork-headline {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+#teamwork-subheadline {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.yellow {
+    color: #ECB12F;
+}
+
+.signup-google-button-container {
+ display: flex;
+ flex-direction: column;
+}
+
+.signup-google-buttons {
+    background-color: #F3EAE2;
+    border: none;
+    height: 50px;
+    text-align: center;
+    margin: 5px 10px;
+    border-radius: 5px;
+}
+
+#google-button {
+background-color: #4285F4;
+/* problem: how to put google logo left and center text at same time */
+}
+
+#google-logo {
+    height: 30px;
+    background-color: #F3EAE2;
+    padding: 5px;
+}
+
+#snapshot {
+    width:100%;
+    margin: 30px 0;
+}
+
+/* main */
+
+/* section 1 */
+#references {
+    height: 200px;
+    background-color: #F3EAE2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.references-logos {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;}
+
+.reference-logo-single {
+height: 30px;
+margin: 10px 0;
+}
+
+#evaluation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 40px 0;
+}
+
+#evaluation-headline{
+    padding-bottom: 20px ;
+    font-size: 30px;
+    padding: 0 10%;
+}
+
+#evaluation-subheadline {
+    padding: 15px 10% 0 10%;
+}
+
+#evaluation-list {
+ width: 45%;
+ padding-top: 20px;
+}
+
+#evaluation-list li {
+    padding: 20px 0;
+    list-style: none;
+}
+
+.percentages {
+    font-size: 40px;
+}
+
+/* section 2 */
+
+#digital-hq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#digital-hq-headline {
+    font-size: 30px;
+width: 80%;
+margin-bottom: 20px;
+}
+
+.digital-hq-buttons {
+    width: 90%;
+    height: 50px;
+    margin: 10px;
+    border: none;
+    border-radius: 2px;
+}
+
+#try-free-button {
+    color:#540B51;
+}
+
+#digital-hq-button {
+    color:#F3EAE2;
+    border: 1px;
+    background-color: #540B51;
+    border-color: #F3EAE2;
+    border-style: solid;
+}
+
+/* tablet code */
+@media (min-width:768px) {
+
+}

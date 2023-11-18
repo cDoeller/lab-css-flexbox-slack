@@ -19,10 +19,12 @@
 <body>
   <!-- NAVBAR -->
   <nav>
-    <div>
-      <img src="./images/slack-logo.png" alt="Slack logo" />
+    <div class="nav-container">
+    <div class="slack-nav">
+      <img src="./images/slack-logo.png" alt="Slack logo" id="slack-logo">
 
-      <ul>
+      <!-- not for mobile, only desktop -->
+      <ul class="desktop-navigation">
         <li>
           <a href="#">Product</a>
         </li>
@@ -38,12 +40,12 @@
       </ul>
     </div>
 
-    <div>
-      <button>
+    <div class="mobile-buttons">
+      <button class="search-burger-buttons">
         <img src="./images/icon-search.png" alt="Search icon">
       </button>
 
-      <button>
+      <button class="search-burger-buttons">
         <img src="./images/icon-menu.png" alt="Menu icon">
       </button>
 
@@ -56,55 +58,52 @@
         </li>
       </ul>
     </div>
+  </div>
   </nav>
 
 
   <!-- HEADER -->
   <header>
     <div>
-      <h1>Great teamwork starts with a digital HQ</h1>
+      <h1 id="teamwork-headline">Great teamwork starts with a digital HQ</h1>
 
-      <p>Slack is free to try for as long as you'd like.</p>
+      <p id="teamwork-subheadline" > <span class="yellow"> Slack is free to try </span> for as long as you'd like.</p>
 
-      <div>
-        <button>Sign up with email</button>
+      <div class="signup-google-button-container">
+        <button class="signup-google-buttons">Sign up with email</button>
 
-        <button>
-          <img src="./images/logo-google.png" alt="Google logo" />
+        <button class="signup-google-buttons" id="google-button">
+          <img src="./images/logo-google.png" alt="Google logo" id="google-logo">
           <span>Sign up with Google</span>
         </button>
       </div>
-
     </div>
 
     <div>
-      <img src="./images/hero-product-ui.png" alt="Slack app screenshot" />
+      <img src="./images/hero-product-ui.png" alt="Slack app screenshot"  id="snapshot">
     </div>
   </header>
 
   <main>
-    <section>
+    <section id="references">
       <p>Trusted by companies all over the world</p>
 
-      <div>
-        <img src="./images/logo-airbnb.png" alt="Airbnb logo" />
-        <img src="./images/logo-nasa.png" alt="NASA logo" />
-        <img src="./images/logo-uber.png" alt="Uber logo" />
-        <img src="./images/logo-target.png" alt="Target logo" />
-        <img src="./images/logo-nyt.png" alt="New York Times logo" />
-        <img src="./images/logo-spotify.png" alt="Spotify logo" />
+      <div class="references-logos">
+        <img src="./images/logo-airbnb.png" alt="Airbnb logo" class="reference-logo-single">
+        <img src="./images/logo-nasa.png" alt="NASA logo" class="reference-logo-single">
+        <img src="./images/logo-uber.png" alt="Uber logo" class="reference-logo-single">
+        <img src="./images/logo-target.png" alt="Target logo" class="reference-logo-single">
+        <img src="./images/logo-nyt.png" alt="New York Times logo" class="reference-logo-single">
+        <img src="./images/logo-spotify.png" alt="Spotify logo" class="reference-logo-single">
       </div>
-
     </section>
 
-    <section>
-      <h3>Teams large and small rely on Slack</h3>
-      <p>Slack securely scales up to support collaboration at the world’s biggest companies.</p>
-
-
-      <ul>
+    <section id="evaluation">
+      <h3 id="evaluation-headline">Teams large and small rely on Slack</h3>
+      <p id="evaluation-subheadline">Slack securely scales up to support collaboration at the world’s biggest companies.</p>
+      <ul id="evaluation-list">
         <li>
-          <p><span>85%</span></p>
+          <p><span class="percentages">85%</span></p>
           <p>
             of users say Slack has improved communication
             <sup>*</sup>
@@ -112,7 +111,7 @@
         </li>
 
         <li>
-          <p><span>86%</span></p>
+          <p><span class="percentages">86%</span></p>
           <p>
             feel their ability to work remotely has improved has improved
             <sup>*</sup>
@@ -120,7 +119,7 @@
         </li>
 
         <li>
-          <p><span>88%</span></p>
+          <p><span class="percentages">88%</span></p>
           <p>
             feel more connected to their teams*
             <sup>*</sup>
@@ -129,11 +128,11 @@
       </ul>
     </section>
 
-    <section>
-      <h3>Welcome to your new digital HQ</h3>
+    <section id="digital-hq">
+      <h3 id="digital-hq-headline">Welcome to your new digital HQ</h3>
 
-      <button>Try for free</button>
-      <button>Talk to sales</button>
+      <button class="digital-hq-buttons" id="try-free-button">Try for free</button>
+      <button class="digital-hq-buttons" id="digital-hq-button">Talk to sales</button>
     </section>
 
   </main>
