@@ -164,6 +164,8 @@ height: 30px;
 margin: 10px 10px;
 }
 
+/* evaluation / percentages */
+
 #evaluation {
     display: flex;
     flex-direction: column;
@@ -171,28 +173,26 @@ margin: 10px 10px;
     align-items: center;
     text-align: center;
     background-color: white;
-    padding: 40px 0;
+    padding: 60px 10% 50px 10%;
 }
 
 #evaluation-headline{
-    padding-bottom: 20px ;
     font-size: 30px;
-    padding: 0 10%;
     color: #540B51;
 
 }
 
 #evaluation-subheadline {
-    padding: 15px 10% 0 10%;
+    padding-top: 15px;
 }
 
 #evaluation-list {
  width: 45%;
- padding-top: 20px;
+ padding-top: 30px;
 }
 
 #evaluation-list li {
-    padding: 20px 0;
+    padding: 10px 0;
     list-style: none;
     font-weight: 900;
 }
