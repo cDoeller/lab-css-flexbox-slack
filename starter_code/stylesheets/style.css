@@ -71,7 +71,7 @@ padding-left: 20px;
 
 #teamwork-headline {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 30px;
     color: white;
     margin: 0 15px;
 }
@@ -225,7 +225,7 @@ color: #F3EAE2;
 .digital-hq-buttons {
     width: 90%;
     height: 50px;
-    margin: 10px;
+    margin: 10px 15px;
     border: none;
     border-radius: 2.5px;
     text-transform:uppercase;
@@ -248,7 +248,7 @@ color: #F3EAE2;
 
 footer {
     background-color:white ;
-    padding: 35px 15px 30px 15px;
+    padding: 35px 5% 30px 5%;
 }
 
 footer ul {
