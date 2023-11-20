@@ -64,6 +64,7 @@ padding-left: 20px;
     text-align: center;
     padding-top: 20px;
     color: white;
+    margin: 0 15px;
 }
 
 #teamwork-subheadline {
@@ -71,6 +72,7 @@ padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
     color: white;
+    margin: 0 15px;
 }
 
 .yellow {
@@ -93,13 +95,18 @@ padding-left: 20px;
 
 #google-button {
 background-color: #4285F4;
+position: relative;
 /* problem: how to put google logo left and center text at same time */
+/* solved: container position: relative, logo position: absolute */
 }
 
 #google-logo {
     height: 30px;
     background-color: #F3EAE2;
     padding: 5px;
+    position: absolute;
+    left:10px;
+    top: 10px;
 }
 
 #snapshot {
@@ -178,6 +185,7 @@ margin: 10px 0;
     font-size: 30px;
 width: 80%;
 margin-bottom: 20px;
+color: #F3EAE2;
 }
 
 .digital-hq-buttons {
@@ -185,7 +193,7 @@ margin-bottom: 20px;
     height: 50px;
     margin: 10px;
     border: none;
-    border-radius: 2px;
+    border-radius: 2.5px;
 }
 
 #try-free-button {
