@@ -38,17 +38,15 @@
           <a href="#">Pricing</a>
         </li>
       </ul>
-    </div>
 
+    </div>
     <div class="mobile-buttons">
       <button class="search-burger-buttons">
         <img src="./images/icon-search.png" alt="Search icon">
       </button>
-
       <button class="search-burger-buttons">
         <img src="./images/icon-menu.png" alt="Menu icon">
       </button>
-
       <ul hidden>
         <li>
           <a href="#">Sign in</a>
@@ -64,30 +62,26 @@
 
   <!-- HEADER -->
   <header>
-    <div>
+    <div id="header-content">
       <h1 id="teamwork-headline">Great teamwork starts with a digital HQ</h1>
-
       <p id="teamwork-subheadline" > <span class="yellow"> Slack is free to try </span> for as long as you'd like.</p>
-
       <div class="signup-google-button-container">
-        <button class="signup-google-buttons">Sign up with email</button>
-
+        <button class="signup-google-buttons" id="signup-button">Sign up with email</button>
         <button class="signup-google-buttons" id="google-button">
           <img src="./images/logo-google.png" alt="Google logo" id="google-logo">
           <span>Sign up with Google</span>
         </button>
       </div>
     </div>
-
-    <div>
-      <img src="./images/hero-product-ui.png" alt="Slack app screenshot"  id="snapshot">
+    <div id="header-screenshot">
+      <img src="./images/hero-product-ui.png" alt="Slack app screenshot"  id="screenshot-img">
     </div>
   </header>
 
   <main>
+    <!-- references section -->
     <section id="references">
-      <p>Trusted by companies all over the world</p>
-
+      <p id="references-text">Trusted by companies all over the world</p>
       <div class="references-logos">
         <img src="./images/logo-airbnb.png" alt="Airbnb logo" class="reference-logo-single">
         <img src="./images/logo-nasa.png" alt="NASA logo" class="reference-logo-single">
@@ -98,6 +92,7 @@
       </div>
     </section>
 
+    <!-- evaluation section -->
     <section id="evaluation">
       <h3 id="evaluation-headline">Teams large and small rely on Slack</h3>
       <p id="evaluation-subheadline">Slack securely scales up to support collaboration at the world’s biggest companies.</p>
@@ -109,7 +104,6 @@
             <sup>*</sup>
           </p>
         </li>
-
         <li>
           <p><span class="percentages">86%</span></p>
           <p>
@@ -117,7 +111,6 @@
             <sup>*</sup>
           </p>
         </li>
-
         <li>
           <p><span class="percentages">88%</span></p>
           <p>
@@ -128,29 +121,30 @@
       </ul>
     </section>
 
+    <!-- digital HQ section -->
     <section id="digital-hq">
       <h3 id="digital-hq-headline">Welcome to your new digital HQ</h3>
-
       <button class="digital-hq-buttons" id="try-free-button">Try for free</button>
       <button class="digital-hq-buttons" id="digital-hq-button">Talk to sales</button>
     </section>
-
   </main>
 
+<!-- footer -->
   <footer>
-    <ul>
+
+    <hr id="footer-hr">
+
+    <ul id="footer-links">
       <li>Status</li>
       <li>Privacy</li>
       <li>Terms</li>
       <li>Cookie Preferences</li>
       <li>Contact Us</li>
       <li>Change Region</li>
-      <li>Download Slack</li>
+      <li class="blue-link">Download Slack</li>
     </ul>
 
-    <hr>
-
-    <ul>
+    <ul id="footer-platforms">
       <li>
         <i class="fab fa-twitter"></i>
       </li>
@@ -165,8 +159,8 @@
       </li>
     </ul>
 
-    <div>
-      <small>
+    <div id="footer-copyright">
+      <small id="footer-copyright-text">
         &copy; 2022 Slack Technologies, LLC, a Salesforce company. All rights reserved. Various trademarks held by
         their respective owners.
       </small>
