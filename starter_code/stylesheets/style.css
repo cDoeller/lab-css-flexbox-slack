@@ -31,7 +31,7 @@ body {
 /* nav bar */
 
 nav {
-    padding: 10px 0;
+    padding: 25px 0 10px 0;
     background-color: #540B51;
 }
 
@@ -42,6 +42,7 @@ nav {
     flex-wrap: nowrap;
     justify-content:space-between;
     align-items: center;
+    padding: 0 5%;
 }
 
 .desktop-navigation {
@@ -50,19 +51,22 @@ nav {
 
 #slack-logo {
 height: 30px;
-padding-left: 20px;
 }
 
 .search-burger-buttons {
     background-color: #540B51;
     border: none;
-    padding-right: 20px;
 }
 
 /* header */
 
+header {
+    background-color: #540B51;
+}
+
 #header-content {
     background-color: #540B51;
+    padding: 0 5%;
 }
 
 #header-screenshot {
@@ -73,13 +77,11 @@ padding-left: 20px;
     text-align: center;
     padding-top: 30px;
     color: white;
-    margin: 0 15px;
 }
 
 #teamwork-subheadline {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0;
     color: white;
     margin: 0 15px;
 }
@@ -98,7 +100,7 @@ padding-left: 20px;
     border: none;
     height: 50px;
     text-align: center;
-    margin: 5px 10px;
+    margin: 5px 0;
     border-radius: 5px;
     font-weight: 700;
     text-transform: uppercase;
@@ -133,9 +135,6 @@ color: white;
 
 /* main */
 
-.main {
-}
-
 /* section 1 */
 #references {
     height: 200px;
@@ -144,7 +143,7 @@ color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 0 20px;
+    padding: 0 5%;
 }
 
 #references-text {
@@ -173,7 +172,7 @@ margin: 10px 10px;
     align-items: center;
     text-align: center;
     background-color: white;
-    padding: 60px 10% 50px 10%;
+    padding: 60px 5% 50px 5%;
 }
 
 #evaluation-headline{
@@ -211,19 +210,19 @@ margin: 10px 10px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 30px 0;
+    padding: 30px 5%;
     background-color: #540B51;
 }
 
 #digital-hq-headline {
     font-size: 30px;
-width: 80%;
+width: 100%;
 margin-bottom: 20px;
 color: #F3EAE2;
 }
 
 .digital-hq-buttons {
-    width: 90%;
+    width: 100%;
     height: 50px;
     margin: 10px 15px;
     border: none;
