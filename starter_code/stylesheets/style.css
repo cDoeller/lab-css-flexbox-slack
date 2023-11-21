@@ -239,6 +239,14 @@ header {
   color: #f3eae2;
 }
 
+#digital-hq-button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
 .digital-hq-buttons {
   width: 100%;
   height: 50px;
