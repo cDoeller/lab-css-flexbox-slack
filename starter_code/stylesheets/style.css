@@ -20,18 +20,11 @@ footer links grey: #454245
 /* mobile code */
 /* general */
 
-html {
-
-}
-
-body {
-    
-}
 
 /* nav bar */
 
 nav {
-    padding: 25px 0 10px 0;
+    padding: 25px 0 0px 0;
     background-color: #540B51;
 }
 
@@ -42,7 +35,7 @@ nav {
     flex-wrap: nowrap;
     justify-content:space-between;
     align-items: center;
-    padding: 0 5%;
+    padding: 0 8%;
 }
 
 .desktop-navigation {
@@ -58,15 +51,27 @@ height: 30px;
     border: none;
 }
 
+.mobile-buttons {
+    width: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 /* header */
 
 header {
     background-color: #540B51;
+    display: flex;
+    flex-direction: column;
 }
 
 #header-content {
+    width:100%;
     background-color: #540B51;
     padding: 0 5%;
+    display: flex;
+    flex-direction: column;
 }
 
 #header-screenshot {
@@ -75,8 +80,9 @@ header {
 
 #teamwork-headline {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
     color: white;
+    font-size: 45px;
 }
 
 #teamwork-subheadline {
@@ -84,6 +90,7 @@ header {
     padding: 20px 0;
     color: white;
     margin: 0 15px;
+    font-size: 16px;
 }
 
 .yellow {
@@ -97,6 +104,7 @@ header {
 
 .signup-google-buttons {
     background-color: #F3EAE2;
+    width:100%;
     border: none;
     height: 50px;
     text-align: center;
@@ -144,7 +152,7 @@ color: white;
 
 /* main */
 
-/* section 1 */
+/* section 1 -- references */
 #references {
     height: 200px;
     background-color: #F3EAE2;
@@ -172,7 +180,7 @@ height: 30px;
 margin: 10px 10px;
 }
 
-/* evaluation / percentages */
+/* section 2 -- evaluation */
 
 #evaluation {
     display: flex;
@@ -211,7 +219,7 @@ margin: 10px 10px;
     font-weight: 600;
 }
 
-/* section 2 */
+/* section 3 -- digital HQ */
 
 #digital-hq {
     display: flex;
@@ -219,21 +227,20 @@ margin: 10px 10px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 30px 5%;
+    padding: 50px 5%;
     background-color: #540B51;
 }
 
 #digital-hq-headline {
-    font-size: 30px;
+    font-size: 35px;
 width: 100%;
-margin-bottom: 20px;
 color: #F3EAE2;
 }
 
 .digital-hq-buttons {
     width: 100%;
     height: 50px;
-    margin: 10px 15px;
+    margin-top: 15px;
     border: none;
     border-radius: 2.5px;
     text-transform:uppercase;
@@ -242,6 +249,7 @@ color: #F3EAE2;
 
 #try-free-button {
     color:#540B51;
+    margin-top: 30px;
 }
 
 #digital-hq-button {
@@ -279,7 +287,7 @@ footer ul {
 }
 
 #footer-links li {
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 .blue-link {
@@ -300,9 +308,4 @@ footer ul {
 
 #footer-copyright-text {
     color: #454245;
-}
-
-/* tablet code */
-@media (min-width:768px) {
-
 }
