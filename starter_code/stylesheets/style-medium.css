@@ -1,0 +1,174 @@
+@media ((max-width: 1440px) and (min-width: 1024px)) {
+  /* nav */
+  .nav-container {
+    padding: 0 4%;
+  }
+  #slack-logo {
+    height: 25px;
+  }
+  .desktop-navigation {
+    display: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 72.5%;
+  }
+  .desktop-navigation li {
+    list-style: none;
+  }
+  .desktop-navigation li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  .slack-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+  }
+  #menu-button {
+    display: none;
+  }
+  #signin-tryfree-nav-ul {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 80%;
+    /* padding-left: 12%; */
+  }
+  #signin-tryfree-nav-ul li {
+    list-style: none;
+  }
+  #signin-tryfree-nav-ul li a {
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .mobile-buttons {
+    width: 30%;
+    align-items: center;
+  }
+  #signin-link-nav {
+    padding: 5px;
+    color: white;
+  }
+  #tryfree-link-nav {
+    border-width: 1px;
+    border-style: none;
+    border-radius: 4px;
+    color:#540b51;
+    background-color: white; 
+    padding: 5px 10px 5px 10px;
+    text-transform: uppercase;
+  }
+
+  /* header */
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 20px;
+  }
+  #header-content {
+    width: 50%;
+    padding: 0 0 0 4%;
+    background-image: url(/starter_code/images/background-singup.png);
+    background-position: -10px 0;
+    background-repeat: no-repeat;
+    background-size: 1425px;
+  }
+  #teamwork-headline {
+    text-align: left;
+    font-size: 80px;
+    padding-top: 30px;
+    width: 100%;
+  }
+  #teamwork-subheadline {
+    text-align: left;
+    margin: 0;
+    padding-top: 80px;
+    font-size: 20px;
+    width: 80%;
+  }
+  #header-screenshot {
+    width: 50%;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 0px;
+  }
+  #screenshot-img {
+    position: absolute;
+    left: 20px;
+    height: 350px;
+    margin: 0;
+  }
+  .signup-google-buttons {
+    width: 100%;
+  }
+
+  /* main */
+  /* section 1 -- references */
+  #references {
+    height: 180px;
+  }
+
+  /* section 2 -- evaluation */
+  #evaluation {
+    padding: 60px 5% 60px 5%;
+  }
+  #evaluation-subheadline {
+    padding-top: 25px;
+  }
+  #evaluation-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    padding-top: 50px;
+  }
+  #evaluation-list li {
+    width: 24%;
+  }
+
+  /* section 3 -- digital HQ */
+
+  #digital-hq-headline {
+    font-size: 45px;
+  }
+
+  #digital-hq-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .digital-hq-buttons {
+    width: 180px;
+    height: 50px;
+    margin: 30px 10px 0 10px;
+  }
+  #try-free-button {
+    color: #540b51;
+    margin-top: 30px;
+  }
+
+  /* footer */
+  #footer-links {
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 600;
+  }
+  #footer-platforms {
+    justify-content: space-between;
+    width: 30%;
+  }
+  #footer-copyright {
+    text-align: left;
+  }
+}

@@ -12,300 +12,302 @@ footer links grey: #454245
 /* starter code */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 /* mobile code */
 /* general */
 
-
 /* nav bar */
 
 nav {
-    padding: 25px 0 0px 0;
-    background-color: #540B51;
+  padding: 25px 0 0px 0;
+  background-color: #540b51;
 }
 
 .nav-container {
-    width:100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content:space-between;
-    align-items: center;
-    padding: 0 8%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8%;
 }
 
 .desktop-navigation {
-    display: none;
+  display: none;
+}
+
+#signin-tryfree-nav-ul {
+    display: none;   
 }
 
 #slack-logo {
-height: 30px;
+  height: 30px;
 }
 
 .search-burger-buttons {
-    background-color: #540B51;
-    border: none;
+  background-color: #540b51;
+  border: none;
 }
 
 .mobile-buttons {
-    width: 75px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  width: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 /* header */
 
 header {
-    background-color: #540B51;
-    display: flex;
-    flex-direction: column;
+  background-color: #540b51;
+  display: flex;
+  flex-direction: column;
 }
 
 #header-content {
-    width:100%;
-    background-color: #540B51;
-    padding: 0 5%;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  background-color: #540b51;
+  padding: 0 5%;
+  display: flex;
+  flex-direction: column;
 }
 
 #header-screenshot {
-    background-color: #540B51;    
+  background-color: #540b51;
 }
 
 #teamwork-headline {
-    text-align: center;
-    padding-top: 50px;
-    color: white;
-    font-size: 45px;
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+  font-size: 45px;
 }
 
 #teamwork-subheadline {
-    text-align: center;
-    padding: 20px 0;
-    color: white;
-    margin: 0 15px;
-    font-size: 16px;
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+  margin: 0 15px;
+  font-size: 16px;
 }
 
 .yellow {
-    color: #ECB12F;
+  color: #ecb12f;
 }
 
 .signup-google-button-container {
- display: flex;
- flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .signup-google-buttons {
-    background-color: #F3EAE2;
-    width:100%;
-    border: none;
-    height: 50px;
-    text-align: center;
-    margin: 5px 0;
-    border-radius: 5px;
-    font-weight: 700;
-    text-transform: uppercase;
+  background-color: #f3eae2;
+  width: 100%;
+  border: none;
+  height: 50px;
+  text-align: center;
+  margin: 5px 0;
+  border-radius: 5px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 #signup-button {
-color:#540B51;
+  color: #540b51;
 }
 
 #google-button {
-background-color: #4285F4;
-position: relative;
-color: white;
-/* problem: how to put google logo left and center text at same time */
-/* solved: container position: relative, logo position: absolute */
+  background-color: #4285f4;
+  position: relative;
+  color: white;
+  /* problem: how to put google logo left and center text at same time */
+  /* solved: container position: relative, logo position: absolute */
 }
 
 #google-logo {
-    height: 40px;
-    background-color: #F3EAE2;
-    padding: 5px;
-    position: absolute;
-    left:5px;
-    top: 5px;
-    border-radius: 2px;
+  height: 40px;
+  background-color: #f3eae2;
+  padding: 5px;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  border-radius: 2px;
 }
 
-#header-screenshot{
-    width: 100%;
-    height: 320px;
-    overflow: hidden;
-    position: relative;
+#header-screenshot {
+  width: 100%;
+  height: 320px;
+  overflow: hidden;
+  position: relative;
 }
 
 #screenshot-img {
-    position: absolute;
-    left: -25px;
-    height: 340px;
-    margin: 40px 0;
+  position: absolute;
+  left: -25px;
+  height: 340px;
+  margin: 40px 0;
 }
 
 /* main */
 
 /* section 1 -- references */
 #references {
-    height: 200px;
-    background-color: #F3EAE2;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 10px 5%;
+  height: 200px;
+  background-color: #f3eae2;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px 5%;
 }
 
 #references-text {
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
 .references-logos {
-display: flex;
-flex-wrap: wrap;
-justify-content:space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .reference-logo-single {
-height: 30px;
-margin: 10px 10px;
+  height: 30px;
+  margin: 10px 10px;
 }
 
 /* section 2 -- evaluation */
 
 #evaluation {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: white;
-    padding: 60px 5% 50px 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  padding: 60px 5% 50px 5%;
 }
 
-#evaluation-headline{
-    font-size: 30px;
-    color: #540B51;
-
+#evaluation-headline {
+  font-size: 30px;
+  color: #540b51;
 }
 
 #evaluation-subheadline {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 #evaluation-list {
- width: 45%;
- padding-top: 30px;
+  width: 45%;
+  padding-top: 30px;
 }
 
 #evaluation-list li {
-    padding: 10px 0;
-    list-style: none;
-    font-weight: 900;
+  padding: 10px 0;
+  list-style: none;
+  font-weight: 900;
 }
 
 .percentages {
-    font-size: 40px;
-    color: #540B51;
-    font-weight: 600;
+  font-size: 40px;
+  color: #540b51;
+  font-weight: 600;
 }
 
 /* section 3 -- digital HQ */
 
 #digital-hq {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 50px 5%;
-    background-color: #540B51;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 5%;
+  background-color: #540b51;
 }
 
 #digital-hq-headline {
-    font-size: 35px;
-width: 100%;
-color: #F3EAE2;
+  font-size: 35px;
+  width: 100%;
+  color: #f3eae2;
 }
 
 .digital-hq-buttons {
-    width: 100%;
-    height: 50px;
-    margin-top: 15px;
-    border: none;
-    border-radius: 2.5px;
-    text-transform:uppercase;
-    font-weight: 700;
+  width: 100%;
+  height: 50px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 2.5px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 #try-free-button {
-    color:#540B51;
-    margin-top: 30px;
+  color: #540b51;
+  margin-top: 30px;
 }
 
 #digital-hq-button {
-    color:#F3EAE2;
-    border: 1px;
-    background-color: #540B51;
-    border-color: #F3EAE2;
-    border-style: solid;
+  color: #f3eae2;
+  border: 1px;
+  background-color: #540b51;
+  border-color: #f3eae2;
+  border-style: solid;
 }
 
 /* footer */
 
 footer {
-    background-color:white ;
-    padding: 35px 5% 30px 5%;
+  background-color: white;
+  padding: 35px 5% 30px 5%;
 }
 
 footer ul {
-    list-style: none;
+  list-style: none;
 }
 
 #footer-hr {
-    border:none;
-    /* border-color:  rgb(232, 232, 232); */
-    height: 2px;
-    background-color:  rgb(223, 223, 223);
+  border: none;
+  /* border-color:  rgb(232, 232, 232); */
+  height: 2px;
+  background-color: rgb(223, 223, 223);
 }
 
 #footer-links {
-    padding-top: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    font-weight: 700;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  font-weight: 700;
 }
 
 #footer-links li {
-    padding: 10px 0;
+  padding: 10px 0;
 }
 
 .blue-link {
-    color: #2E71A6;
-    }
+  color: #2e71a6;
+}
 
 #footer-platforms {
-    padding-top: 30px;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 #footer-copyright {
-    padding: 30px 0 0 0;
-    text-align: center;
+  padding: 30px 0 0 0;
+  text-align: center;
 }
 
 #footer-copyright-text {
-    color: #454245;
+  color: #454245;
 }
