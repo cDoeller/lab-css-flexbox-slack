@@ -304,6 +304,7 @@ footer ul {
   color: #2e71a6;
 }
 
+/* add this part*/
 #footer-platforms {
   padding-top: 30px;
   display: flex;
