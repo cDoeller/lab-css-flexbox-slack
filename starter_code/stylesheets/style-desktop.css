@@ -1,7 +1,7 @@
-@media ((max-width: 1440px) and (min-width: 1024px)) {
+@media ((min-width: 1440px)) {
   /* nav */
   .nav-container {
-    padding: 0 4%;
+    padding: 0 2%;
   }
   #slack-logo {
     height: 25px;
@@ -26,7 +26,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 60%;
+    width: 40%;
   }
   #menu-button {
     display: none;
@@ -35,9 +35,10 @@
     display: block;
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 83%;
+    /* padding-left: 12%; */
   }
   #signin-tryfree-nav-ul li {
     list-style: none;
@@ -47,7 +48,7 @@
     font-size: 18px;
   }
   .mobile-buttons {
-    width: 32%;
+    width: 22%;
     align-items: center;
   }
   #signin-link-nav {
@@ -58,8 +59,8 @@
     border-width: 1px;
     border-style: none;
     border-radius: 4px;
-    color:#540b51;
-    background-color: white; 
+    color: #540b51;
+    background-color: white;
     padding: 10px 15px 10px 15px;
     text-transform: uppercase;
     font-weight: 600;
@@ -70,59 +71,77 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 100px;
-    padding-top: 20px;
+    padding: 20px 6% 120px 6%;
   }
   #header-content {
     width: 50%;
-    padding: 0 0 0 4%;
-    background-image: url(/starter_code/images/background-singup.png);
-    background-position: -10px 0;
-    background-repeat: no-repeat;
-    background-size: 1425px;
+    padding: 0 0 0 0;
+    background-image: none;
+    /* background-position: -10px 0;
+      background-repeat: no-repeat;
+      background-size: 1425px; */
   }
   #teamwork-headline {
     text-align: left;
     font-size: 80px;
     padding-top: 30px;
-    width: 100%;
+    width: 80%;
   }
   #teamwork-subheadline {
     text-align: left;
     margin: 0;
     padding-top: 80px;
-    font-size: 20px;
-    width: 80%;
+    font-size: 24px;
+    width: 50%;
   }
   #header-screenshot {
     width: 50%;
-    height: 350px;
-    overflow: hidden;
-    position: relative;
+    height: auto;
+    overflow:auto;
+    position:static;
     margin-bottom: 0px;
   }
   #screenshot-img {
-    position: absolute;
-    left: 20px;
-    height: 350px;
+    position: static;
+    height: auto;
+    width: 100%;
     margin: 0;
+  }
+  .signup-google-button-container {
+    flex-direction: row;
   }
   .signup-google-buttons {
     width: 100%;
   }
-
+  #signup-button {
+    margin-right: 5px;
+  }
+  #google-button {
+    margin-left: 5px;
+  }
   /* main */
   /* section 1 -- references */
   #references {
     height: 180px;
+    padding: 10px 15%;
   }
-
+  #references-text {
+    font-size: 18px;
+  }
+  .reference-logo-single {
+    height: 40px;
+    margin: 10px 10px;
+  }
   /* section 2 -- evaluation */
   #evaluation {
-    padding: 60px 5% 60px 5%;
+    padding: 80px 7% 80px 7%;
+  }
+  #evaluation-headline {
+    font-size: 45px;
   }
   #evaluation-subheadline {
     padding-top: 25px;
+    font-size: 18px;
   }
   #evaluation-list {
     width: 100%;
@@ -130,10 +149,13 @@
     flex-direction: row;
     justify-content: space-between;
     text-align: left;
-    padding-top: 50px;
+    padding-top: 70px;
   }
   #evaluation-list li {
-    width: 24%;
+    width: 15%;
+  }
+  .percentages {
+    font-size: 70px;
   }
 
   /* section 3 -- digital HQ */
@@ -165,7 +187,7 @@
   }
   #footer-platforms {
     justify-content: space-between;
-    width: 30%;
+    width: 23%;
   }
   #footer-copyright {
     text-align: left;
